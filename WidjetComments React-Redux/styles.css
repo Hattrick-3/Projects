@@ -1,0 +1,58 @@
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+li{
+  border: 2px solid #ebebeb;
+  margin-bottom: 20px;
+  width: 724px;
+  min-height: 50px;
+  padding: 10px;
+}
+.delete{
+  float: right;
+}
+input{
+  background-color: #f9f9f9;
+  border: 2px solid #ebebeb;
+  padding: 10px;
+}
+.comment{
+  min-width: 500px;
+  min-height: 50px;
+}
+.name{
+  width: 150px;
+  height: 10px;
+  margin-right: 50px;
+}
+.field{
+  display: flex;
+  flex-wrap: wrap;
+  width: 748px;
+}
+.addBtn{
+ margin-left: auto;
+ margin-top: 20px;
+ background-color: #2174fd;
+ color: #ffffff;
+ border: none;
+ padding: 10px;
+ cursor: pointer;
+}
+.delBtn{
+  margin-left: auto;
+  border: 2px solid  #ebebeb;
+  cursor: pointer;
+}
+.nm{
+  font-weight: bold;
+}
+.text{
+  margin-top: 25px;
+  font-style: italic;
+}
+.date{
+  font-size: 12px;
+
+}

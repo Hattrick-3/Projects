@@ -1,0 +1,32 @@
+.football {
+    position: relative;
+    margin-top: 20px; margin-bottom: 20px;
+}
+.field {
+    width: 100%;
+    height: 1100px;
+    border-radius: 10px;
+}
+.ball {
+    position: absolute; top: 0; left: 0;
+    width: 100px; height: 100px;
+}
+.left_score, .right_score{
+  position: absolute; top: 0;
+  width: 100px; height: 100px;
+  background-color: white;
+  text-align: center;
+  font-size: 40px;
+  border: 2px solid black;
+}
+.left_score{
+  left: calc(50% - 100px);
+}
+.right_score{
+  left:50% ;
+}
+p{
+  position: relative;
+  top:25%;
+  margin: 0;
+}

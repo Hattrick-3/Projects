@@ -1,0 +1,13 @@
+.text-decoration{
+	text-decoration: line-through;
+}
+.btn_clear{
+	background-image: url('img/clear-button.png');
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	background-color: #ffffff;
+	border: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 0 25px;
+};
